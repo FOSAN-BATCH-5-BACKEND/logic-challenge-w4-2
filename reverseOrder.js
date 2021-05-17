@@ -7,11 +7,10 @@ Input = "AAAABBBCCDAABBB"
 Output = [ 'B', 'A', 'D', 'C', 'B', 'A' ]
 */
 
-function reverseOrder(string){
+function reverseOrder(string) {
   // buat kodemu disini
-
 }
 
-console.log(reverseOrder('AAAABBBCCDAABBB')) //[ 'B', 'A', 'D', 'C', 'B', 'A' ]
-console.log(reverseOrder('NNMMAAWWWWWWAAADDDDD')) //[ 'D', 'A', 'W', 'A', 'M', 'N' ]
-console.log(reverseOrder('ABCDEFFFFFFFFFFFFF')) //[ 'F', 'E', 'D', 'C', 'B', 'A' ]
+console.log(reverseOrder("AAAABBBCCDAABBB")); //[ 'B', 'A', 'D', 'C', 'B', 'A' ]
+console.log(reverseOrder("NNMMAAWWWWWWAAADDDDD")); //[ 'D', 'A', 'W', 'A', 'M', 'N' ]
+console.log(reverseOrder("ABCDEFFFFFFFFFFFFF")); //[ 'F', 'E', 'D', 'C', 'B', 'A' ]
