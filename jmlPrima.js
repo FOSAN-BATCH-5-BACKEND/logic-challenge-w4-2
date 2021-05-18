@@ -8,7 +8,19 @@ karena ada 8 bilangan prima ddi dalam input, yaitu 2,3,5,7,11,13,15,17,19
 */
 
 function howMuch(input) {
-	//kode di sini
+let bilPrima;
+let penampungArray = [];
+	for (let i = 2; i <= input; i++) {
+	//console.log(i);
+	bilPrima=1;
+	 for (let j = 2; j <= i/2; j++) {
+		if ( i%j == 0) bilPrima =0 ;
+		}
+	if (bilPrima ==1 ) penampungArray.push(i);
+	}//console.log(j);
+		
+		 return penampungArray.length;
+			
 }
 
 
