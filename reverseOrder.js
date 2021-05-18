@@ -8,9 +8,16 @@ Output = [ 'B', 'A', 'D', 'C', 'B', 'A' ]
 */
 
 function reverseOrder(string){
-  // buat kodemu disini
-
-}
+  let penampung = []
+  for(let i = string.length - 1; i >= 0; i--){
+    if(string[i] == string[i-1]){
+      continue;
+    }else{
+      penampung.push(string[i])
+    }
+  }
+  return penampung
+ }
 
 console.log(reverseOrder('AAAABBBCCDAABBB')) //[ 'B', 'A', 'D', 'C', 'B', 'A' ]
 console.log(reverseOrder('NNMMAAWWWWWWAAADDDDD')) //[ 'D', 'A', 'W', 'A', 'M', 'N' ]
